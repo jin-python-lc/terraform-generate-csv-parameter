@@ -332,15 +332,6 @@
                         ]
                     },
                     "depends_on": [
-                        "aws_iam_instance_profile.xxx",
-                        "aws_iam_role.xxx-ec2",
-                        "aws_key_pair.sakai",
-                        "aws_security_group.alb_xxx",
-                        "aws_security_group.ec2_xxx",
-                        "aws_security_group.ec2_common",
-                        "data.aws_ami.sej_xxx",
-                        "data.aws_subnet.protected_a",
-                        "data.aws_vpc.main"
                     ]
                 },
                 {
